@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ## Requirements
 
-* PHP >= 8.0 (with `php_yaml`)
+* PHP >= 8.0
 
 ## Installation
 
