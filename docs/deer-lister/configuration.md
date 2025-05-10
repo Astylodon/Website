@@ -44,8 +44,8 @@ Displays allow the content of a folder to be displayed differently, for example 
 
 ```toml
 [[displays]]
-path = "path/to/gallery":
-  format: "image"
-  displayOthers: false
-  displayBack: false
+path = "path/to/gallery"
+format = "image"
+displayOthers = false
+displayBack = false
 ```
