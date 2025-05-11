@@ -11,7 +11,7 @@ export default function HomepageFeatures(): JSX.Element {
           <p>PHP directory lister </p>
         </div>
       </a>
-      <a href="/docs/deer-shika/" className={styles.card}>
+      <a href="/docs/shika/" className={styles.card}>
         <div>
           <h2>Shika</h2>
           <p>Analytics for your website</p>
