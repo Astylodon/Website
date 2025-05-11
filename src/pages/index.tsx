@@ -31,6 +31,7 @@ export default function Home(): JSX.Element {
       description="We make utility websites for your needs">
       <HomepageHeader />
       <main>
+        <HomepageFeatures />
       </main>
     </Layout>
   );
