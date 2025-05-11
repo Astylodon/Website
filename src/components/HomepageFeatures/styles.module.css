@@ -1,11 +1,21 @@
-.features {
+.flex {
+  margin-top: 2em;
   display: flex;
   align-items: center;
-  padding: 2rem 0;
-  width: 100%;
+  justify-content: center;
+  gap: 10px;
 }
 
-.featureSvg {
-  height: 200px;
-  width: 200px;
+.card {
+  width: 350px;
+  border: 1px solid rgb(56, 56, 56);
+  border-radius: 5px;
+  padding: 3em;
+}
+
+.card:hover {
+  background-color: var(--ifm-color-primary);
+  border: none;
+  color: var(--ifm-font-color-base-inverse);
+  text-decoration: none;
 }
