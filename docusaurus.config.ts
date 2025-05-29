@@ -34,11 +34,7 @@ const config: Config = {
       'classic',
       {
         docs: {
-          sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          sidebarPath: './sidebars.ts'
         },
         blog: false,
         theme: {
@@ -52,7 +48,7 @@ const config: Config = {
     navbar: {
       title: 'Astylodon',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Astylodon Logo',
         src: 'img/logo.svg',
       },
       items: [
