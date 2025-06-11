@@ -19,38 +19,7 @@ Copy the `.env.example` file to `.env` and edit the database configuration.
 
 ## Configuring your web server
 
-### Nginx
-
-```
-server {
-    listen 80;
-    listen [::]:80;
-
-    server_name shika.example.com;
-    root /var/www/shika/public;
-
-    index index.php;
-
-    location / {
-        try_files $uri $uri/ /index.php?$query_string;
-    }
- 
-    location ~ \.php$ {
-        include snippets/fastcgi-php.conf;
-        fastcgi_pass unix:/run/php/php8.2-fpm.sock;
-    }
-}
-```
-
-### Caddy
-
-```
-shika.example.com {
-    file_server
-    root * /var/www/shika/public
-    php_fastcgi unix//run/php/php8.2-fpm.sock
-}
-```
+See [getting-started](getting-started/#web-server-configuration)
 
 ## Configuring your database
 
