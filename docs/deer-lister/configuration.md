@@ -7,7 +7,7 @@ sidebar_position: 2
 
 # Configuration
 
-Deer Lister can be configured by changing the `_internal/config.toml` file.
+Deer Lister can be configured by changing the `config.toml` file.
 
 ## Protecting folders
 
