@@ -1,3 +1,6 @@
+import DeerListerPreview from './assets/preview.png';
+import DeerListerDisplay from './assets/display.png';
+
 ---
 sidebar_position: 2
 ---
@@ -40,9 +43,11 @@ enabled_readme = true
 
 ## Previews
 
-![Preview feature example](/img/deer-lister/preview.png)
-
 File previews show a preview of a file in a modal when the user click on it in DeerLister, enabled previews are under the `enabled_previews` option.
+
+<div style={{textAlign: 'center'}}>
+    <img src={DeerListerPreview} width="500" alt="Preview feature example"/>
+</div>
 
 ```toml
 [previews]
@@ -60,9 +65,11 @@ unsafe = false
 
 ## Displays
 
-![Display feature example](/img/deer-lister/display.png)
-
 Displays allow the content of a folder to be displayed differently, for example an image gallery. Displays need to be configured under the `displays` option.
+
+<div style={{textAlign: 'center'}}>
+    <img src={DeerListerDisplay} width="500" alt="Display feature example"/>
+</div>
 
 ```toml
 [[displays]]
