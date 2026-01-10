@@ -11,7 +11,7 @@ Deer Lister can be configured by changing the `config.toml` file.
 
 ## Protecting folders
 
-To protect a folder from being indexed and prevent the user to access it, add it to the `forbidden` option.
+To protect a folder from being indexed and prevent a user from accessing it, add it to the `forbidden` option.
 
 ```toml
 forbidden = [ "vendor", "mysecretfolder" ]
@@ -27,7 +27,7 @@ hidden = [ "myhiddenfolder" ]
 
 ## Preview fallback
 
-If true, clicking a file that can't be previewed will display a message saying so instead of downloading it
+Whether clicking a file that can't be previewed will display a message instead of downloading it.
 
 ```toml
 preview_fallback = true
@@ -35,7 +35,7 @@ preview_fallback = true
 
 ## Enabled README
 
-Do we preview the README if one is present
+Whether to preview the README if one is present.
 
 ```toml
 enabled_readme = true
@@ -43,7 +43,7 @@ enabled_readme = true
 
 ## Previews
 
-File previews show a preview of a file in a modal when the user click on it in DeerLister, enabled previews are under the `enabled_previews` option.
+File previews show a preview of the file in a modal when the user click on it, enabled previews are under the `enabled_previews` option.
 
 <div style={{textAlign: 'center'}}>
     <img src={DeerListerPreview} width="500" alt="Preview feature example"/>
@@ -86,21 +86,21 @@ For example the following config
 ```toml
 [[displays]]
 path = "media/myMusic"
-format = "music"
+format = "audio"
 
 
 [[displays]]
 path = "media/myPhotos"
-format = "music"
+format = "image"
 displayOthers = true
 ```
 
-Will display give the following:
+Will display as the following:
 
 ```
 Root
 ├─── media
 │   ├─── myMusic  <── These files will be displayed in "audio" format
-│   ├─── myPhotos <── These files will be displayed in "image" format, but still showing the "back" button
+│   ├─── myPhotos <── These files will be displayed in "image" format, but still showing other files
 │   ├─── myDocs   <── These files will be displayed in "file" format
 ```
