@@ -1,9 +1,9 @@
-import DeerListerPreview from './assets/preview.png';
-import DeerListerDisplay from './assets/display.png';
-
 ---
 sidebar_position: 2
 ---
+
+import DeerListerPreview from './assets/preview.png';
+import DeerListerDisplay from './assets/display.png';
 
 # Configuration
 
